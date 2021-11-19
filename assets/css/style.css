@@ -3,7 +3,7 @@
     --style-color-hover: rgb(128, 171, 236);
     --text-color-other: #3f3689;
     --text-color: rgb(29, 29, 29);
-    --text-color-lighter: #8b8b8b;
+    --text-color-lighter: #3a3a3a;
     --text-color-reverse: rgb(240, 240, 240);
 }
 
@@ -263,7 +263,7 @@ section {
 
 .examples__item {
     min-height: 400px;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(234 241 247);
     border-radius: 20px;
     
 }
@@ -276,7 +276,7 @@ section {
 
 .examples__img img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     border-radius: 20px;
     border-bottom-left-radius: 0;
@@ -487,6 +487,8 @@ section {
 
 .team__list img {
     object-fit: cover;
+    width: 400px;
+    height: auto;
 }
 
 .team__item--big {
@@ -496,7 +498,7 @@ section {
 }
 
 .team__item--big img {
-    width: 800px;
+    width: 650px;
     height: auto;
 }
 

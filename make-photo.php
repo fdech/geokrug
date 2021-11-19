@@ -9,7 +9,8 @@
 <script src='assets/js/webcam.min.js'></script>
 
     <section class="create-photo">
-        <div class="container reg__form">   
+        <div class="container reg__form">
+            <h2 class='title'>Добавить новое памятное место</h2>
             <form class='form' method="POST" action='blocks/make-photo__send.php' enctype="multipart/form-data">
                 <div class="form__wrapper">
                     <input type="button" class='btn' id='openCamera' value="Включить камеру">
